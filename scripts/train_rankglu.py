@@ -9,7 +9,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from rankglu.master_teacher_enhanced_variants import MASTERVariantModel
+from rankglu import RankGLUTrainer
 
 raw_universe = os.getenv('UNIVERSE', 'csi300').lower()
 universe = {'cs300': 'csi300', 'cs800': 'csi800'}.get(raw_universe, raw_universe)
@@ -83,7 +83,7 @@ print(
     flush=True,
 )
 
-model = MASTERVariantModel(
+model = RankGLUTrainer(
     d_feat=d_feat,
     d_model=d_model,
     t_nhead=t_nhead,

@@ -9,12 +9,12 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from rankglu import MASTERVariant, ResidualBottleneckGLUDecoder
+from rankglu import RankGLUNetwork, ResidualBottleneckGLUDecoder
 
 
 def main():
     torch.manual_seed(0)
-    model = MASTERVariant(
+    model = RankGLUNetwork(
         d_feat=158,
         d_model=64,
         t_nhead=4,

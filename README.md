@@ -19,8 +19,8 @@ training protocol, and the multi-seed experiment runner used for the manuscript
 
 ## Main Result
 
-The retained method is the head-only RankGLU configuration on top of the
-market-conditioned temporal-relational backbone:
+The retained method is RankGLU score formation with the ranking-aware training
+protocol:
 
 | Dataset | Model | IC | Best IC | ICIR | RankIC | RankICIR |
 |---|---:|---:|---:|---:|---:|---:|
@@ -147,19 +147,8 @@ give high single-seed peaks but are less stable under multi-seed evaluation.
 }
 ```
 
-Please also cite the MASTER backbone:
-
-```bibtex
-@inproceedings{li2024master,
-  title={MASTER: Market-Guided Stock Transformer for Stock Price Forecasting},
-  author={Li, Tong and Liu, Zhaoyang and Shen, Yanyan and Wang, Xue and Chen, Haokun and Huang, Sen},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={38},
-  number={1},
-  pages={162--170},
-  year={2024}
-}
-```
+Related encoder references are listed in [NOTICE.md](NOTICE.md) for
+reproducibility context.
 
 ## License
 

@@ -37,7 +37,7 @@ time step and final column.
 
 ## Processing Notes
 
-The manuscript follows the MASTER-style processed data protocol:
+The manuscript follows this processed data protocol:
 
 ```text
 train period: first quarter of 2008 to first quarter of 2020

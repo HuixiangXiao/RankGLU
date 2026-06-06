@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite RankGLU and the MASTER backbone paper."
+message: "If you use this repository, please cite RankGLU."
 title: "RankGLU: Residual Gated Score Formation for Cross-Sectional Stock Prediction"
 authors:
   - family-names: Xiao

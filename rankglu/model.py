@@ -534,7 +534,7 @@ def build_decoder(d_model, dropout, stronger_head=False, decoder_type=None, deco
     raise ValueError(f'unsupported decoder_type: {decoder_type}')
 
 
-class MASTERVariant(nn.Module):
+class RankGLUNetwork(nn.Module):
     def __init__(
         self,
         d_feat,
@@ -655,7 +655,7 @@ class MASTERVariant(nn.Module):
         return self.cs_norm(score)
 
 
-class MASTERVariantModel(SequenceModel):
+class RankGLUTrainer(SequenceModel):
     def __init__(
         self,
         d_feat,
@@ -742,7 +742,7 @@ class MASTERVariantModel(SequenceModel):
         self.init_model()
 
     def init_model(self):
-        self.model = MASTERVariant(
+        self.model = RankGLUNetwork(
             d_feat=self.d_feat,
             d_model=self.d_model,
             t_nhead=self.t_nhead,
