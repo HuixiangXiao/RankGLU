@@ -4,6 +4,16 @@ title: "RankGLU: Residual Gated Score Formation for Cross-Sectional Stock Predic
 authors:
   - family-names: Xiao
     given-names: Huixiang
+  - family-names: Xu
+    given-names: Jian
+  - family-names: Qu
+    given-names: Feiyu
+    email: 202300450070@mail.sdu.edu.cn
+    affiliation: "School of Control Science and Engineering, Shandong University"
+  - family-names: Xie
+    given-names: Zixuan
+  - family-names: Li
+    given-names: Xiangyu
 repository-code: "https://github.com/HuixiangXiao/RankGLU"
 license: MIT
 date-released: 2026-06-06
