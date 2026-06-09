@@ -1,6 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite RankGLU."
 title: "RankGLU: Residual Gated Score Formation for Cross-Sectional Stock Prediction"
+doi: 10.48550/arXiv.2606.08930
+url: "https://arxiv.org/abs/2606.08930"
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2606.08930"
+  - type: other
+    value: "arXiv:2606.08930"
+    description: "arXiv identifier"
 authors:
   - family-names: Xiao
     given-names: Huixiang
@@ -16,4 +24,4 @@ authors:
     given-names: Xiangyu
 repository-code: "https://github.com/HuixiangXiao/RankGLU"
 license: MIT
-date-released: 2026-06-06
+date-released: 2026-06-09

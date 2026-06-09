@@ -139,11 +139,15 @@ give high single-seed peaks but are less stable under multi-seed evaluation.
 ## Citation
 
 ```bibtex
-@article{xiao2026rankglu,
+@misc{xiao2026rankglu,
   title={RankGLU: Residual Gated Score Formation for Cross-Sectional Stock Prediction},
   author={Xiao, Huixiang and Xu, Jian and Qu, Feiyu and Xie, Zixuan and Li, Xiangyu},
   year={2026},
-  note={Manuscript}
+  eprint={2606.08930},
+  archivePrefix={arXiv},
+  primaryClass={cs.CE},
+  doi={10.48550/arXiv.2606.08930},
+  url={https://arxiv.org/abs/2606.08930}
 }
 ```
 
