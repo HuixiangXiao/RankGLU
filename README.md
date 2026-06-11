@@ -138,6 +138,11 @@ give high single-seed peaks but are less stable under multi-seed evaluation.
 
 ## Citation
 
+Paper: [arXiv:2606.08930](https://arxiv.org/abs/2606.08930).
+
+RankGLU studies residual gated score formation for cross-sectional stock
+ranking under information-coefficient-oriented evaluation.
+
 ```bibtex
 @misc{xiao2026rankglu,
   title={RankGLU: Residual Gated Score Formation for Cross-Sectional Stock Prediction},

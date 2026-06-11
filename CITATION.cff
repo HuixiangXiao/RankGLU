@@ -1,6 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite RankGLU."
+message: "If you use this repository, please cite RankGLU. The paper is available at https://arxiv.org/abs/2606.08930."
 title: "RankGLU: Residual Gated Score Formation for Cross-Sectional Stock Prediction"
+abstract: "RankGLU is a residual bottleneck gated score-formation module for cross-sectional stock ranking, designed to produce stable ranking scores under information-coefficient-oriented evaluation."
 doi: 10.48550/arXiv.2606.08930
 url: "https://arxiv.org/abs/2606.08930"
 identifiers:
